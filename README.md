@@ -1,5 +1,5 @@
 # andyliu-resume
-LaTeX source for Andy Liu's curriculum vitae
+LaTeX source for Andy Liu's [curriculum vitae](AndyLiuResume.pdf)
 
 ## How to use
 My resume uses a XeLaTeX template and therefore must be compiled with XeLaTeX.
