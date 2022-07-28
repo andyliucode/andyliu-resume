@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\begin{document}
+
+\header{Andy}{Liu}{} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+\href{mailto:andyliucode@gmail.com}{andyliucode@gmail.com}
+~
+\href{https://andyliucode.github.io}{andyliucode.github.io}
+~
+(516) 859 0389
+\section{education}
+BS Mathematical Sciences
+Minor Computer Science
+~
+Carnegie Mellon University
+Pittsburgh, PA
+~
+Class of 2017
+\section{programming} 
+Python, C/C++
+\section{tools}
+Pandas, Sklearn, DyNet, \\Keras, Tensorflow, LaTeX
+\section{coursework}
+machine learning, \\parallel algorithms, \\probability theory, \\real analysis, \\financal engineering, \\functional programming
+\section{hobbies}
+tennis, blogging, \\German-style board games
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+
+\entry
+{Bloomberg, LP}
+{September 2017 - Present}
+{\emph{Software Engineer - Artificial Intelligence Group}
+\begin{itemize}
+\item Improved core machine learning methodology by designing data science pipelines and developing infrastructure, e.g. computing confidence intervals for precision/recall estimates,  evaluation of word embeddings, implementing shared-mask dropout for RNNs, etc.
+\item Worked on deep learning solutions for Natural Language Understanding for financial language text, especially intent classification for various trader/broker workflows.
+\item Advocated machine learning to non-ML engineers by giving talks on useful techniques as well as presenting summaries of recent research papers.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{Akuna Capital}
+{June 2016 - August 2016}
+{\emph{Quantitative Trading Intern}
+\begin{itemize}
+\item Formulated mathematical conditions for automated trading under slippage. Used Python to build a backtesting framework, perform signal processing, and implement models. 
+\item Developed volatility index trading strategies through a combination of statistical regression and empirical backtesting. Traded live risk for the last two weeks of the internship. 
+\end{itemize}}
+%------------------------------------------------
+\entry
+{Old Mission Capital}
+{June 2015 - July 2015}
+{\emph{Quantitative Trading Intern}
+\begin{itemize}
+\item Built tools to perform time series analysis on the historical impact of commodity ETF rebalances during roll periods. 
+\item Used statistical computing tools in Python to analyze fill quality of trades and provide visualization of results across different exchanges and time intervals.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{Department of Computer Science - Carnegie Mellon University}
+{September 2014 - May 2017}
+{\emph{Teaching Assistant}
+\begin{itemize}
+\item Supported "Great Theoretical Ideas of Computer Science" (15-251), an accelerated discrete mathematics course with an emphasis on theoretical computer science.
+\item Supported "Algorithms Design and Analysis" (15-451), a proof-based computer science course centered around the design and analysis of algorithms.
+\end{itemize}}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{competition}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Citadel Datathon}
+{March 2017}
+{\emph{Runner-up}
+\begin{itemize}
+\item Got second place in a data science competition. Analyzed 2015 Uber ride data in conjunction with New York City demographics and NTA zone datasets. 
+\item Used linear regression with L1 regularization (LASSO) to predict Uber pickup demand using demographics. Other models considered include Gradient Boosting Machines and Ridge Regression. 
+\end{itemize}}
+%------------------------------------------------
+\entry
+{Tartan Data Science Cup}
+{February 2017}
+{\emph{Winner}
+\begin{itemize}
+\item Won first place in a data science hackathon using machine learning methods to predict 'bad' loans based on borrower characteristics (e.g. annual income, credit score, etc.).
+\item Trained Gradient Boosting Classifier, Random Forest, and Logistic Regression models on a loans data set using sklearn in Python. Tuned model parameters with cross-validation. 
+\end{itemize}}
+%------------------------------------------------
+\entry
+{University of Chicago Midwest Trading Competition}
+{March 2014}
+{\emph{Case Winner}
+\begin{itemize}
+\item Designed and implemented in Java a high-frequency trading algorithm to turn a profit by making markets in a single security on two exchanges. Our algorithms had to tolerate position limits and laggy data streams, and they needed to be risk-neutral by end-of-day.
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+\end{document}
